@@ -64,8 +64,8 @@ const translations = {
     "projects.portfolio.description": "Site portfolio responsivo e moderno com animações suaves, modo escuro e otimização para SEO.",
     "projects.estrutura.title": "Estrutura de Dados Visual",
     "projects.estrutura.description": "Aplicação para visualização e manipulação de estruturas de dados como listas, pilhas e filas, com animações interativas.",
-    "projects.neurovida.title": "Landing Page (NeuroVida)",
-    "projects.neurovida.description": "Landing Page para clínica de neuropsicopedagogia focada em acessibilidade e design responsivo.",
+    "projects.neurovida.title": "Website (NeuroVida)",
+    "projects.neurovida.description": "Website para clínica de neuropsicopedagogia focada em acessibilidade e design responsivo.",
 
     // Contact
     "contact.title": "Entre em",
@@ -136,8 +136,8 @@ const translations = {
     "projects.portfolio.description": "Responsive and modern portfolio website with smooth animations, dark mode, and SEO optimization.",
     "projects.estrutura.title": "Visual Data Structures",
     "projects.estrutura.description": "Application for visualizing and manipulating data structures such as lists, stacks, and queues, with interactive animations.",
-     "projects.neurovida.title": "Landing Page (NeuroVida)",
-    "projects.neurovida.description": "Landing Page para clínica de neuropsicopedagogia focada em acessibilidade e design responsivo.",
+     "projects.neurovida.title": "Website (NeuroVida)",
+    "projects.neurovida.description": "Website para clínica de neuropsicopedagogia focada em acessibilidade e design responsivo.",
 
     // Contact
     "contact.title": "Get in",
