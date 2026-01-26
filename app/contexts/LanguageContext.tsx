@@ -56,12 +56,16 @@ const translations = {
     "projects.titleHighlight": "Criações",
     "projects.ecommerce.title": "Stock Master",
     "projects.ecommerce.description": "Uma plataforma de e-commerce completa com carrinho de compras, pagamentos integrados e painel administrativo para gerenciamento de produtos.",
-    "projects.taskManager.title": "Pokédex Interativa",
-    "projects.taskManager.description": "Aplicação Web interativa para consulta de informações sobre Pokémon, utilizando uma API pública chamada PokeAPI.",
-    "projects.weather.title": "Weather Dashboard",
-    "projects.weather.description": "Dashboard interativo de previsão do tempo com dados em tempo real, gráficos dinâmicos e localização automática.",
+    "projects.pokedex.title": "Pokédex Interativa",
+    "projects.pokedex.description": "Aplicação Web interativa para consulta de informações sobre Pokémon, utilizando uma API pública chamada PokeAPI.",
+    "projects.deppi.title": "Protótipo DEPPI",
+    "projects.deppi.description": "Landing Page para Departamento de Extensão do Instituto Federal do Ceará",
     "projects.portfolio.title": "Portfolio Website",
     "projects.portfolio.description": "Site portfolio responsivo e moderno com animações suaves, modo escuro e otimização para SEO.",
+    "projects.estrutura.title": "Estrutura de Dados Visual",
+    "projects.estrutura.description": "Aplicação para visualização e manipulação de estruturas de dados como listas, pilhas e filas, com animações interativas.",
+    "projects.neurovida.title": "Landing Page (NeuroVida)",
+    "projects.neurovida.description": "Landing Page para clínica de neuropsicopedagogia focada em acessibilidade e design responsivo.",
 
     // Contact
     "contact.title": "Entre em",
@@ -124,12 +128,16 @@ const translations = {
     "projects.titleHighlight": "Creations",
     "projects.ecommerce.title": "Stock Master ",
     "projects.ecommerce.description": "A complete stock platform with shopping cart, integrated payments, and admin panel for product management.",
-    "projects.taskManager.title": "Interactive Pokédex",
-    "projects.taskManager.description": "Task management application with drag and drop functionality, categorization, and automatic reminders.",
-    "projects.weather.title": "Weather Dashboard",
-    "projects.weather.description": "Interactive weather forecast dashboard with real-time data, dynamic charts, and automatic location detection.",
+    "projects.pokedex.title": "Interactive Pokédex",
+    "projects.pokedex.description": "Task management application with drag and drop functionality, categorization, and automatic reminders.",
+    "projects.deppi.title": "Deppi Landing Page",
+    "projects.deppi.description": "Landing Page for the Extension Department of the Federal Institute of Ceará",
     "projects.portfolio.title": "Portfolio Website",
     "projects.portfolio.description": "Responsive and modern portfolio website with smooth animations, dark mode, and SEO optimization.",
+    "projects.estrutura.title": "Visual Data Structures",
+    "projects.estrutura.description": "Application for visualizing and manipulating data structures such as lists, stacks, and queues, with interactive animations.",
+     "projects.neurovida.title": "Landing Page (NeuroVida)",
+    "projects.neurovida.description": "Landing Page para clínica de neuropsicopedagogia focada em acessibilidade e design responsivo.",
 
     // Contact
     "contact.title": "Get in",
@@ -168,7 +176,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
   if (!context) {
-    throw new Error("useLanguage must be used within a LanguageProvider");
+    throw new Error("erro de provedor.");
   }
   return context;
 };
