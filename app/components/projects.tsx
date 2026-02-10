@@ -17,12 +17,12 @@ export const ProjectsSection = () => {
       description: t("projects.ecommerce.description"),
       technologies: ["Angular", "Angular Material", "SQLite", "Python", "Django REST"],
       github: "https://github.com/Daniel-MComin/stockmaster-api",
-      image: "https://www.phsoft.com.br/wp-content/uploads/2020/10/controle-estoque.png",
+      image: "/stock.png",
     },
     {
       title: t("projects.pokedex.title"),
       description: t("projects.pokedex.description"),
-      technologies: ["JavaScript", "HTML5", "CSS3"],
+      technologies: ["JavaScript", "HTML5", "CSS3", "PokeAPI"],
       github: "https://github.com/Daniel-MComin/The-Pokedex-Finished",
       demo: "https://daniel-mcomin.github.io/The-Pokedex-Finished/",
       image: "/pokedex.png",
@@ -54,10 +54,10 @@ export const ProjectsSection = () => {
      {
       title: t("projects.neurovida.title"),
       description: t("projects.neurovida.description"),
-      technologies: ["Next.js", "Framer Motion", "Tailwind CSS"],
-      github: "",
-      demo: "",
-      image: "",
+      technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "Lucide-React"],
+      github: "https://github.com/Daniel-MComin/neurovida-page",
+      demo: "https://neurovida-page.vercel.app/",
+      image: "/neurovida.png",
     },
   ];
 

@@ -15,7 +15,7 @@ export const SkillsSection = () => {
     {
       title: t("skills.languages"),
       icon: Code,
-      skills: ["JavaScript", "TypeScript", "Python", "HTML5", "CSS3", "SQL"],
+      skills: ["JavaScript", "TypeScript", "Python", "HTML5", "CSS3", "PostgreSQL"],
     },
     {
       title: t("skills.frameworks"),
@@ -25,7 +25,7 @@ export const SkillsSection = () => {
     {
       title: t("skills.tools"),
       icon: Wrench,
-      skills: ["Git & GitHub", "GitLab", "Insomnia", "Postman", "PostgreSQL", "Docker", "VS Code", "Figma"],
+      skills: ["Git & GitHub", "GitLab", "Insomnia", "Postman", "Docker", "VS Code", "Figma"],
     },
     {
       title: t("skills.soft"),
